@@ -1,8 +1,8 @@
 {
   "name": "paperclient",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
     "start": "NODE_ENV=development electron .",
     "build": "build.sh"
@@ -10,7 +10,7 @@
   "author": "shwld",
   "license": "ISC",
   "devDependencies": {
-    "electron-packager": "^7.6.0",
-    "electron-prebuilt": "^1.3.3"
+    "electron-packager": "^8.6.0",
+    "electron-prebuilt": "^1.4.13"
   }
 }
