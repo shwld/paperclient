@@ -9,6 +9,7 @@ electron-packager ./dist "PaperClient" \
   --platform=darwin \
   --arch=x64 \
   --version=1.4.13 \
+  --asar=true \
   --build-version=${PKG_VERSION} \
   --icon=./icon.icns \
   --app-bundle-id=net.shwld.PaperClient \
