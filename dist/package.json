@@ -1,11 +1,11 @@
 {
   "name": "paperclient",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "author": "shwld",
   "license": "MIT",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.13"
+    "electron-prebuilt": "^2.0.2"
   }
 }

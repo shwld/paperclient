@@ -8,7 +8,7 @@ electron-packager ./dist "PaperClient" \
   --overwrite \
   --platform=darwin \
   --arch=x64 \
-  --version=1.4.13 \
+  --electron-version=1.4.13 \
   --asar=true \
   --build-version=${PKG_VERSION} \
   --icon=./icon.icns \
