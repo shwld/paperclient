@@ -9,6 +9,8 @@ function createWindow () {
   win = new BrowserWindow({
     width,
     height,
+    titleBarStyle: 'hidden',
+    nodeintegration: true,
   })
   win.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
